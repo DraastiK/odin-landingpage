@@ -1,9 +1,21 @@
+body{
+    background-color: #1f2937;
+}
+
 .logo{
     display: flex;
+    justify-content: space-between;
     height: 40px
 }
 
 .links{
     display: flex;
     gap: 24px;
+    color: #f9faf9;
+}
+
+.hero-text{
+    color: #f9faf8;
+    padding: 64px;
+
 }
