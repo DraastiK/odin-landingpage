@@ -17,5 +17,6 @@
 .hero-text{
     color: #f9faf8;
     padding: 64px;
+    display: flex;
 
 }
