@@ -1,22 +1,8 @@
-.hero-top{
-    background-color: #1f2937
-}
-
-.logo{
+nav{
     display: flex;
     justify-content: space-between;
-    height: 40px
 }
 
-.links{
-    display: flex;
-    gap: 24px;
-    color: #f9faf9;
-}
-
-.hero-text{
-    color: #f9faf8;
-    padding: 64px;
-    display: flex;
-
+.dark-background{
+    background-color: #1f2937;
 }
