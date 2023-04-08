@@ -1,8 +1,9 @@
-nav{
+.top{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
-.dark-background{
-    background-color: #1f2937;
+.hero-text{
+    display: flex;
 }
