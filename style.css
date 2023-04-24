@@ -74,7 +74,10 @@ img{
     display: flex;
     justify-content: space-between;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     gap: 30px;
+    
 }
 
 .third{
@@ -97,4 +100,12 @@ img{
     display: flex;
     font-weight: bold;
     margin-left: 100px;
+}
+
+.call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+    border: solid;
 }
