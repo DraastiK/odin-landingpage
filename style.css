@@ -1,7 +1,5 @@
 .first{
     background-color: #1f2937;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 .header{
@@ -22,6 +20,13 @@
 .hero-text{
     display: flex;
     justify-content: space-between;
+    height: 400px;
+    margin-top: 50p;
+    margin-right: 100px;
+}
+
+.text-box{
+    margin-left: 100px;
 }
 
 .big-hero{
@@ -41,8 +46,7 @@
 
 .image-placeholder{
     display: flex;
-    margin-right: 500px;
-    text-align: center;
+    justify-content: center;
     align-items: center;
     color:#e5e7eb;
     background-color: grey;
@@ -50,8 +54,8 @@
     width: 500px;
 }
 
-.image-placeholder p{
-    margin-left: 200px
+.placeholder-text{
+
 }
 
 .random-text{
@@ -71,14 +75,14 @@ img{
     justify-content: space-between;
     text-align: center;
     gap: 30px;
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-bottom: 100px
 }
 
 .third{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #e5e7eb;
-    text-align: center;
     color: #1f2937;
     height: 200px;
 }
@@ -87,11 +91,10 @@ img{
     text-align: center;
     font-size: 36px;
     font-style: italic;
-    margin-bottom: 0px;
-    margin-top: 50px;
 }
 
 .quoter{
+    display: flex;
     font-weight: bold;
     margin-left: 100px;
 }
